@@ -33,9 +33,10 @@ export function ButtonLink({
   );
 }
 
-export function Pill({ children }: { children: ReactNode }) {
+export function Pill({ children, className }: { children: ReactNode; className?: string }) {
+  const base = "inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-800 ring-1 ring-slate-200";
   return (
-    <span className="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-800 ring-1 ring-slate-200">
+    <span className={[base, className].filter(Boolean).join(" ")}>
       {children}
     </span>
   );
