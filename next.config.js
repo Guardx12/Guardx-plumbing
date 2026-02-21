@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    formats: ["image/avif", "image/webp"],
+    // We only use local images in /public
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;

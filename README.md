@@ -1,12 +1,3 @@
-# GuardX Roofing Template (Homepage)
+# GuardX Template — Plumbing (Homepage Demo)
 
-A single-page (homepage) demo site built with Next.js App Router + Tailwind.
-
-## Run locally
-```bash
-npm install
-npm run dev
-```
-
-## Deploy
-Push to GitHub and import into Vercel.
+Standalone Next.js App Router homepage demo. Local images in /public/images.
