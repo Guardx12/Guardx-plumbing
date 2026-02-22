@@ -340,7 +340,7 @@ export default function Page() {
               </div>
             </div>
             <div className="rounded-2xl border border-slate-200 bg-slate-25 px-4 py-3 text-sm text-slate-700">
-              No fake names used — generic placeholder reviews only.
+              
             </div>
           </div>
 
